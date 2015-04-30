@@ -4,6 +4,6 @@
     @include ('w-cms-base-theme::partials.page', ['page' => $page])
 </div>
 
-{!! HTML::script('js/scripts.js') !!}
+{!! HTML::script('w-cms-base-theme/js/scripts.js') !!}
 
 @include ('w-cms-base-theme::includes.footer')
