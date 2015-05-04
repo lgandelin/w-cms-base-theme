@@ -649,6 +649,9 @@ hr {
     .col-sm-offset-0 {
         margin-left: 0%;
     }
+    .align-center, .align-right {
+        float: none;
+    }
 }
 @media (min-width: 992px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -1015,4 +1018,28 @@ hr {
 }
 .affix {
     position: fixed;
+}
+
+.align-center {
+    display: inline-block;
+    float: none;
+}
+
+.align-right {
+    float: right;
+}
+
+.row {
+    text-align: center;
+}
+
+div[class^="col-"] {
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    .align-center, .align-right {
+        float: none;
+        display: block;
+    }
 }

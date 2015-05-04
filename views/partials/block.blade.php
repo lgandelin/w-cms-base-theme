@@ -1,6 +1,6 @@
 @if ($block->display)
     <div class="col-md-{{ $block->width }}">
-        <div class="{{ $block->class }}">
+        <div class="{{ $block->class }} align-{{ $block->alignment }}">
             @if ($block->type == 'html')
                 {!! $block->html !!}
             @elseif ($block->type == 'menu' && isset($block->menu))
