@@ -6,7 +6,7 @@
             @elseif ($block->type == 'menu' && isset($block->menu))
                 @include (Shortcut::get_theme() . '::partials.blocks.menu', ['menu' => $block->menu])
             @elseif ($block->type == 'view_file' && $block->view_file != '')
-                @include($block->view_file)
+                @include(Shortcut::get_theme() . '::partials.blocks.' . $block->view_file)
             @elseif ($block->type == 'article' && isset($block->article))
                 @include (Shortcut::get_theme() . '::partials.blocks.article', ['article' => $block->article])
             @elseif ($block->type == 'article_list')
