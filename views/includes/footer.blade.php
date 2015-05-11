@@ -1,4 +1,4 @@
-    {!! HTML::script(Shortcut::get_theme() . '/js/scripts.js') !!}
+    {!! HTML::script('js/scripts.js') !!}
 
     </body>
 </html>
