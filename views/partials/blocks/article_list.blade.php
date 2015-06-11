@@ -1,6 +1,6 @@
-@if (isset($block->articles))
+@if (isset($content->articles))
     <ul>
-        @foreach ($block->articles as $article)
+        @foreach ($content->articles as $article)
             <li>
                 <h4>{{ $article->title }}</h4>
                 <p>{{ $article->summary }}</p>

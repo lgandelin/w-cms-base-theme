@@ -1,6 +1,6 @@
-@if (isset($block->menu))
+@if ($content)
     <ul>
-        @foreach ($block->menu->items as $item)
+        @foreach ($content->items as $item)
             @if ($item->display)
                 @if (isset($item->page))
                     <li class="{{ $item->class }} @if ($page->uri == $item->page->uri) current @endif">
