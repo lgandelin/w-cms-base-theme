@@ -1,0 +1,1 @@
+@include(Shortcut::get_theme() . '::partials.blocks.' . $content->viewPath)
