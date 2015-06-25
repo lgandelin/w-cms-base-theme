@@ -1,7 +1,7 @@
-@include (Shortcut::get_theme() . '::includes.header')
+@include ($theme . '::includes.header')
 
 <div class="grid-container">
-    @include (Shortcut::get_theme() . '::structure.page', ['page' => $page])
+    @include ($theme . '::structure.page', ['page' => $page])
 </div>
 
-@include (Shortcut::get_theme() . '::includes.footer')
+@include ($theme . '::includes.footer')
