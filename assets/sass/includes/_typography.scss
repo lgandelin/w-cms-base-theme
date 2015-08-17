@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600);
+
+ol {
+	li {
+		margin-bottom: 2rem;
+	}
+}
+
+a, a strong {
+	color: $green;
+}
+
+a:hover {
+	border-bottom: 1px dotted $green;
+}
+
+h1 {
+	display: inline-block;
+	margin-bottom: 1.5rem;
+	font-size: 3rem;
+	border-bottom: 3px solid $green;
+}
+
+.filename {
+	color: #9BA78F;
+}
+
+h2 {
+    font-size: 1.25rem;
+	display: block;
+    margin-bottom: 1rem;
+}
+
+h3 {
+	display: inline-block;
+	border-bottom: 1px dotted $green;
+}
+
+strong {
+	color: lighten($dark-blue, 5%);
+	font-weight: 600;
+}

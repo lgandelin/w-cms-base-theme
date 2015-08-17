@@ -1,0 +1,25 @@
+body {
+	padding-top: 1.5rem;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.block {
+	background: lighten($light-gray, 37%);
+	margin-bottom: $spacing-unit;
+	padding: 1rem;
+	margin-right: 1rem;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.logo {
+    font-size: 35px;
+    color: #1DA38C;
+    display: inline-block;
+}

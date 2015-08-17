@@ -1,0 +1,119 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $dark-blue;
+    -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 1000px;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    list-style-position: inside;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    color: #b8c4d0;
+    font-size: 15px;
+    font-family: "Source Code Pro";
+    border-radius: 5px;
+    background-color: $bg-code;
+    margin-bottom: 0;
+}
+
+pre {
+    padding: 12px;
+    overflow-x: auto;
+    display: inline-block;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+section {
+    margin-bottom: 1.5 * $spacing-unit;
+}

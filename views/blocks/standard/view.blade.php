@@ -1,3 +1,3 @@
-@if (isset($content->viewPath))
-    @include($theme . '::partials.blocks.' . $content->viewPath)
+@if (isset($content->view_path))
+    @include($theme . '::blocks.custom.' . $content->view_path)
 @endif

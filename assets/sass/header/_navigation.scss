@@ -1,0 +1,29 @@
+.navigation {
+    height: 85px;
+    line-height: 85px;
+
+    .block {
+        padding: 0 1rem;
+    }
+
+	li {
+		display: inline-block;
+		margin-right: 1.5rem;
+		list-style: none;
+	}
+
+	a {
+		color: #334246;
+	}
+
+	a:hover {
+		color: $light-gray;
+		border-bottom: none;
+		text-decoration: none;
+	}
+
+	.active a {
+		color: $green;
+	}
+}
+
