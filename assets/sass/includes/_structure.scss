@@ -7,9 +7,14 @@ body {
 	margin: auto;
 }
 
+.area {
+    margin-bottom: 1rem;
+}
+
 .block {
 	background: lighten($light-gray, 37%);
-	margin-bottom: $spacing-unit;
+    border: 1px solid lighten($light-gray, 35%);
+	margin-bottom: 1rem;
 	padding: 1rem;
 	margin-right: 1rem;
 }
@@ -20,6 +25,16 @@ body {
 
 .logo {
     font-size: 35px;
-    color: #1DA38C;
     display: inline-block;
+    text-align: center;
+
+    .block {
+        padding: 0;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }

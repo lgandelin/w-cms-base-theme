@@ -1,5 +1,5 @@
 @if ($area->display)
-<div class="{{ $area->class }} grid-{{ $area->width }}">
+<div class="area {{ $area->class }} grid-{{ $area->width }}">
     <div class="container">
         @if (isset($area->blocks))
             @foreach ($area->blocks as $block)

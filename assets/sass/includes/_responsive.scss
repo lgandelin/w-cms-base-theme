@@ -1,0 +1,30 @@
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .grid-container {
+        padding: 0 1rem;
+    }
+
+    div[class*='grid']{
+        width: 100% !important;
+        float: none !important;
+    }
+
+    .area {
+        margin-bottom: 1rem !important;
+    }
+    
+    .block {
+        margin-right: 0;
+        margin-bottom: 1rem !important;
+    }
+
+    .logo {
+        img {
+            display: inline-block !important;
+        }
+    }
+}

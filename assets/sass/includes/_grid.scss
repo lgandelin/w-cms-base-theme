@@ -1,19 +1,10 @@
+@for $i from 1 through 12 {
+    .grid-#{$i} {
+        float: left;
+        width: $i * 100% / 12
+    }
+}
+
 .grid-12 {
-    width: 100%;
     clear: both;
-}
-
-.grid-4 {
-    width: 25%;
-    float: left;
-}
-
-.grid-8 {
-    width: 75%;
-    float: left;
-}
-
-.grid-6 {
-    width: 50%;
-    float: left;
 }

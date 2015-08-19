@@ -7,6 +7,10 @@ ol {
 	}
 }
 
+* {
+    word-break: break-word;
+}
+
 a, a strong {
 	color: $green;
 }
@@ -22,8 +26,12 @@ h1 {
 	border-bottom: 3px solid $green;
 }
 
-.filename {
-	color: #9BA78F;
+p {
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 h2 {
@@ -40,4 +48,13 @@ h3 {
 strong {
 	color: lighten($dark-blue, 5%);
 	font-weight: 600;
+}
+
+i {
+    font-style: italic;
+    font-size: $base-font-size * 0.8;
+}
+
+.filename {
+    color: #9BA78F;
 }
