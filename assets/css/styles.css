@@ -1,0 +1,436 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600);
+/* line 6, ../sass/includes/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 16, ../sass/includes/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 19, ../sass/includes/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../sass/includes/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 25, ../sass/includes/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, ../sass/includes/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 34, ../sass/includes/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 38, ../sass/includes/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 2, ../sass/includes/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../sass/includes/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * Reset some basic elements
+ */
+/* line 18, ../sass/includes/_base.scss */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 25, ../sass/includes/_base.scss */
+html {
+  overflow-y: scroll;
+}
+
+/**
+ * Basic styling
+ */
+/* line 32, ../sass/includes/_base.scss */
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #334246;
+  -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Images
+ */
+/* line 44, ../sass/includes/_base.scss */
+img {
+  max-width: 1000px;
+  vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+/* line 54, ../sass/includes/_base.scss */
+figure > img {
+  display: block;
+}
+
+/* line 58, ../sass/includes/_base.scss */
+figcaption {
+  font-size: 14.875px;
+}
+
+/**
+ * Lists
+ */
+/* line 67, ../sass/includes/_base.scss */
+ul, ol {
+  list-style-position: inside;
+}
+
+/* line 72, ../sass/includes/_base.scss */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+/**
+ * Headings
+ */
+/* line 83, ../sass/includes/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+/* line 87, ../sass/includes/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/**
+ * Code formatting
+ */
+/* line 95, ../sass/includes/_base.scss */
+pre,
+code {
+  color: #b8c4d0;
+  font-size: 15px;
+  font-family: "Source Code Pro";
+  border-radius: 5px;
+  background-color: #4d5052;
+  margin-bottom: 0;
+}
+
+/* line 105, ../sass/includes/_base.scss */
+pre {
+  padding: 12px;
+  overflow-x: auto;
+  display: inline-block;
+}
+/* line 110, ../sass/includes/_base.scss */
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 117, ../sass/includes/_base.scss */
+section {
+  margin-bottom: 45px;
+}
+
+/* line 5, ../sass/includes/_typography.scss */
+ol li {
+  margin-bottom: 2rem;
+}
+
+/* line 10, ../sass/includes/_typography.scss */
+* {
+  word-break: break-word;
+}
+
+/* line 14, ../sass/includes/_typography.scss */
+a, a strong {
+  color: #1DA38C;
+}
+
+/* line 18, ../sass/includes/_typography.scss */
+a:hover {
+  border-bottom: 1px dotted #1DA38C;
+}
+
+/* line 22, ../sass/includes/_typography.scss */
+h1 {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  border-bottom: 3px solid #1DA38C;
+}
+
+/* line 29, ../sass/includes/_typography.scss */
+p {
+  margin-bottom: 1rem;
+}
+
+/* line 33, ../sass/includes/_typography.scss */
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 37, ../sass/includes/_typography.scss */
+h2 {
+  font-size: 1.25rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* line 43, ../sass/includes/_typography.scss */
+h3 {
+  display: inline-block;
+  border-bottom: 1px dotted #1DA38C;
+}
+
+/* line 48, ../sass/includes/_typography.scss */
+strong {
+  color: #3e5055;
+  font-weight: 600;
+}
+
+/* line 53, ../sass/includes/_typography.scss */
+i {
+  font-style: italic;
+  font-size: 13.6px;
+}
+
+/* line 58, ../sass/includes/_typography.scss */
+.filename {
+  color: #9BA78F;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-1 {
+  float: left;
+  width: 8.33333%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-2 {
+  float: left;
+  width: 16.66667%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-3 {
+  float: left;
+  width: 25%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-4 {
+  float: left;
+  width: 33.33333%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-5 {
+  float: left;
+  width: 41.66667%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-6 {
+  float: left;
+  width: 50%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-7 {
+  float: left;
+  width: 58.33333%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-8 {
+  float: left;
+  width: 66.66667%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-9 {
+  float: left;
+  width: 75%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-10 {
+  float: left;
+  width: 83.33333%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-11 {
+  float: left;
+  width: 91.66667%;
+}
+
+/* line 2, ../sass/includes/_grid.scss */
+.grid-12 {
+  float: left;
+  width: 100%;
+}
+
+/* line 8, ../sass/includes/_grid.scss */
+.grid-12 {
+  clear: both;
+}
+
+/* line 1, ../sass/includes/_structure.scss */
+body {
+  padding-top: 1.5rem;
+}
+
+/* line 5, ../sass/includes/_structure.scss */
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* line 10, ../sass/includes/_structure.scss */
+.area {
+  margin-bottom: 1rem;
+}
+
+/* line 14, ../sass/includes/_structure.scss */
+.block {
+  background: #f9faf9;
+  border: 1px solid #f4f6f3;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+/* line 22, ../sass/includes/_structure.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 26, ../sass/includes/_structure.scss */
+.logo {
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+}
+/* line 31, ../sass/includes/_structure.scss */
+.logo .block {
+  padding: 0;
+}
+
+/* line 36, ../sass/includes/_structure.scss */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 1, ../sass/header/_navigation.scss */
+.navigation {
+  height: 85px;
+  line-height: 85px;
+}
+/* line 5, ../sass/header/_navigation.scss */
+.navigation .block {
+  padding: 0 1rem;
+}
+/* line 9, ../sass/header/_navigation.scss */
+.navigation li {
+  display: inline-block;
+  margin-right: 1.5rem;
+  list-style: none;
+}
+/* line 15, ../sass/header/_navigation.scss */
+.navigation a {
+  color: #334246;
+}
+/* line 19, ../sass/header/_navigation.scss */
+.navigation a:hover {
+  color: #9BA78F;
+  border-bottom: none;
+  text-decoration: none;
+}
+/* line 25, ../sass/header/_navigation.scss */
+.navigation .active a {
+  color: #1DA38C;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 3, ../sass/includes/_responsive.scss */
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  /* line 7, ../sass/includes/_responsive.scss */
+  .grid-container {
+    padding: 0 1rem;
+  }
+
+  /* line 11, ../sass/includes/_responsive.scss */
+  div[class*='grid'] {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  /* line 16, ../sass/includes/_responsive.scss */
+  .area {
+    margin-bottom: 1rem !important;
+  }
+
+  /* line 20, ../sass/includes/_responsive.scss */
+  .block {
+    margin-right: 0;
+    margin-bottom: 1rem !important;
+  }
+
+  /* line 26, ../sass/includes/_responsive.scss */
+  .logo img {
+    display: inline-block !important;
+  }
+}
