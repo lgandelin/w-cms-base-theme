@@ -1,4 +1,4 @@
-@if ($content)
-    <h2>{{ $content->title }}</h2>
-    {!! $content->text !!}
+@if (isset($block->article))
+    <h2>{{ $block->article->title }}</h2>
+    {!! $block->article->text !!}
 @endif

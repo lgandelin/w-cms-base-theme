@@ -1,9 +1,9 @@
-@if ($content)
+@if (isset($block->menu) && $block->menu)
     <ul>
-        @foreach ($content->items as $item)
+        @foreach ($block->menu->items as $item)
             @if ($item->display)
                 @if (isset($item->page))
-                    <li class="{{ $item->class }} @if ($page->uri == $item->page->uri) current @endif">
+                    <li class="{{ $item->class }}>
                         <a href="{{ route('front_page_index', array($item->page->uri)) }}" title="{{ $item->page->name }}">{{ $item->label }}</a>
                     </li>
                 @elseif ($item->externalURL)
