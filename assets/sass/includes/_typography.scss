@@ -12,18 +12,18 @@ ol {
 }
 
 a, a strong {
-	color: $green;
+	color: $orange;
 }
 
 a:hover {
-	border-bottom: 1px dotted $green;
+	border-bottom: 1px dotted $orange;
 }
 
 h1 {
 	display: inline-block;
 	margin-bottom: 1.5rem;
 	font-size: 3rem;
-	border-bottom: 3px solid $green;
+	border-bottom: 3px solid $orange;
 }
 
 p {
@@ -42,7 +42,7 @@ h2 {
 
 h3 {
 	display: inline-block;
-	border-bottom: 1px dotted $green;
+	border-bottom: 1px dotted $orange;
 }
 
 strong {
